@@ -15,7 +15,7 @@ parent_directory=getcwd()
 print(parent_directory)
 #opening file
 if name=='nt':
-    File = open(parent_directory+'\\todolistwin','rb')
+    File = open(parent_directory+'\\todolist','rb')
 else:
     File = open(parent_directory+'/todolist','rb')
 db=pickle.load(File)
